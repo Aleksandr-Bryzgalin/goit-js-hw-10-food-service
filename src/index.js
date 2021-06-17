@@ -13,3 +13,10 @@ menuCont.insertAdjacentHTML('beforeend', menuMarkup);
 function createMenuCards(items) {
     return menuCardsTpl(items)
 }
+
+
+
+const Theme = {
+  LIGHT: 'light-theme',
+  DARK: 'dark-theme',
+};
