@@ -3,6 +3,8 @@ import './sass/main.scss';
 import menuCardsTpl from './templates/menu-card-markup.hbs';
 import items from './menu.json';
 
+
+// Menu
 const refs = {
     menuContRef: document.querySelector('.js-menu'),
     toggleRef: document.querySelector('#theme-switch-toggle'),
